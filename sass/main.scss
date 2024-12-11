@@ -1,0 +1,297 @@
+@import "./reset";
+@import "./variables";
+@import "./mixin";
+@import "./mediaque";
+
+
+.wrapper {
+    .container-fluid {
+        background-color: #F5F5F5;
+
+        .navbar {
+            .container-fluid {
+                .collapse {
+                    .navbar-nav{
+                        .container{
+                            .row{
+                                div{
+                                    li{
+                                        a{
+                                            font-size: 15px;
+                                            @include font-mont-bold;
+                                            &:link{
+                                                color: $link-color;
+                                            }
+                                            &:hover{
+                                                color: $hover-color;
+                                            }
+                                            &.active {
+                                                color:$hover-color;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    ul {
+                        height: 100%;
+
+                        li {
+                            .logo-menu {
+                                @include font-rob-bold;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                }
+            }
+        }
+
+    }
+
+    section {
+        .cus-total-container {
+            .travel-form {
+                .form-container {
+                    width: 85%;
+                    background-color: #FAFAFA;
+                    border: 1px solid #70707038;
+                    box-shadow: 0px 3px 6px #00000029;
+
+                    .item-container {
+                        li {
+                            .cus-heading {
+                                @include font-rob-bold;
+                                color: #000000;
+                            }
+
+                            .location {
+                                @include font-rob-med;
+                            }
+
+                            button {
+                                margin-top: 3em;
+                                background: transparent linear-gradient(108deg, #04B5A3 0%, #02C6D7 56%, #00D4FF 100%) 0% 0% no-repeat padding-box;
+                                border: 1px solid #70707047;
+                                border-radius: 5px;
+                                opacity: 1;
+                            }
+                            .form-group{
+                                .input-group{
+                                    .input-group-addon{
+                                        border: $calen-bor;
+                                        border-end-end-radius: 10px;
+                                    }
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+
+            .container {
+                .content-container {
+                    .sub-section-1{
+                        img{
+                            width:70%;
+                        }
+                    }
+                    .cus-row-cont {
+                        .col-md-6 {
+                            h1 {
+                                font-size: 50px;
+                                @include font-rob-bold;
+                                color: $link-color;
+                                }
+
+                            .cus-p-journey {
+                                font-size: 15px;
+                                @include font-rob-reg;
+                                color: $para-color;
+                            }
+                        }
+                    }
+                    .sub-section-2, .sub-section-1{
+                        h1{
+                            font-size: 50px;
+                            @include font-rob-bold;
+                            color: $link-color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .img-carousel-cont {
+            .img-caro-items {
+                width: 80%;
+
+                #demo1 {
+                    .carousel-indicators{
+                        button{
+                            background-color: #D8D8D8;
+                        }
+                    }
+                    .carousel-inner {
+                        .carousel-item{
+                            .text-carousel {
+                                width: 50%;
+                                .cus-name{
+                                    font-size: 16px;
+                                    @include font-rob-bold;
+                                }
+                                .cus-feedback{
+                                    font-size: 21px;
+                                    @include font-rob-med;
+                                }
+                            }
+
+                        }
+                    }
+
+                    button {
+                        i {
+                            color: black;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .pac-heading {
+            .pac-head-content {
+                width: 80%;
+
+                h1 {
+                    font-size: 50px;
+                    @include font-rob-bold;
+                    color: $link-color;
+                }
+
+                .pac-head-para {
+                    p {
+                        font-size: 20px;
+                        width: 76.5%;
+                        @include font-rob-reg;
+                    }
+                }
+            }
+        }
+
+        .pac-list {
+            margin-bottom: 7%;
+            margin-top: 3%;
+
+            .pac-list-cont {
+                width: 77%;
+
+                .row {
+                    .card-container {
+                        border: $pack-border;
+                        box-shadow:$pack-shadow;
+                        padding: 0;
+                        div {
+                            ul {
+                                .pac-list-head {
+                                    @include font-rob-bold;
+                                    font-size: 25px;
+                                }
+
+                                .pac-list-dec {
+                                    @include font-rob-reg;
+                                }
+
+                                .pac-list-cost {
+                                    @include font-rob-bold;
+                                }
+                            }
+                        }
+
+                        .pac-list-footer {
+                            .col {
+                                button {
+                                    background: $explore-bg-color;
+                                    color: $contact-bg-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .contact-us {
+            background-color: $contact-bg-color;
+
+            .contact-us-cont {
+                margin-left: 7%;
+                h1 {
+                    @include font-rob-bold;
+                }
+                .contact-container {
+                    column-gap: 5em;
+                    .cus-row-1 {
+                        .col-12 {
+                            .form-cus-name {
+                                @include font-rob-reg;
+                                color: $placeholder-color;
+                            }
+
+                            ::placeholder {
+                                @include font-rob-reg;
+                                color: $placeholder-color;
+                            }
+
+                            button {
+                                background: transparent linear-gradient(122deg, #06B800 0%, #078504 100%) 0% 0% no-repeat padding-box;
+                                color: $submit-color;
+                            }
+                        }
+                    }
+
+                    .cus-row-2 {
+                        padding-right: 15%;
+
+                        .col-md-12 {
+                            height: 70%;
+                        }
+                    }
+
+                    .cus-row-3 {
+                        .col-5 {
+                            .con-nameheader {
+                                @include font-rob-bold;
+                            }
+
+                            p {
+                                color: $address-color;
+                            }
+
+                            i {
+                                color: black;
+                                padding-right: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: $footer-bg-color;
+        color: $submit-color;
+    }
+}
+.datepicker{
+    .datepicker-days{
+        table{
+            width: 17em;
+            padding: 0 1em;
+        }
+    }
+}

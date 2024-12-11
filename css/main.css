@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .cus-row-1 {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 991px) {
+  .cus-row-1 {
+    width: 87%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cus-row-1 {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .cus-row-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .cus-row-cont .col-md-6, .cus-row-cont .col-md-5 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact-us-cont {
+    margin-left: 0%;
+  }
+  .contact-us-cont .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-us-cont .contact-container .cus-row-1 {
+    width: 90%;
+  }
+  .contact-us-cont .contact-container .cus-row-1 .col-12 input {
+    width: 100%;
+  }
+  .text-carousel {
+    width: 100%;
+  }
+}
+.wrapper .container-fluid {
+  background-color: #F5F5F5;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav .container .row div li a {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav .container .row div li a:link {
+  color: #000000;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav .container .row div li a:hover {
+  color: #0E8E00;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav .container .row div li a.active {
+  color: #0E8E00;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav ul {
+  height: 100%;
+}
+.wrapper .container-fluid .navbar .container-fluid .collapse .navbar-nav ul li .logo-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.wrapper section .cus-total-container .travel-form .form-container {
+  width: 85%;
+  background-color: #FAFAFA;
+  border: 1px solid rgba(112, 112, 112, 0.2196078431);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+.wrapper section .cus-total-container .travel-form .form-container .item-container li .cus-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.wrapper section .cus-total-container .travel-form .form-container .item-container li .location {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.wrapper section .cus-total-container .travel-form .form-container .item-container li button {
+  margin-top: 3em;
+  background: transparent linear-gradient(108deg, #04B5A3 0%, #02C6D7 56%, #00D4FF 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(112, 112, 112, 0.2784313725);
+  border-radius: 5px;
+  opacity: 1;
+}
+.wrapper section .cus-total-container .travel-form .form-container .item-container li .form-group .input-group .input-group-addon {
+  border: 1px solid #ced4da;
+  border-end-end-radius: 10px;
+}
+.wrapper section .cus-total-container .container .content-container .sub-section-1 img {
+  width: 70%;
+}
+.wrapper section .cus-total-container .container .content-container .cus-row-cont .col-md-6 h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.wrapper section .cus-total-container .container .content-container .cus-row-cont .col-md-6 .cus-p-journey {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #6E6E6E;
+}
+.wrapper section .cus-total-container .container .content-container .sub-section-2 h1, .wrapper section .cus-total-container .container .content-container .sub-section-1 h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.wrapper section .img-carousel-cont .img-caro-items {
+  width: 80%;
+}
+.wrapper section .img-carousel-cont .img-caro-items #demo1 .carousel-indicators button {
+  background-color: #D8D8D8;
+}
+.wrapper section .img-carousel-cont .img-caro-items #demo1 .carousel-inner .carousel-item .text-carousel {
+  width: 50%;
+}
+.wrapper section .img-carousel-cont .img-caro-items #demo1 .carousel-inner .carousel-item .text-carousel .cus-name {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.wrapper section .img-carousel-cont .img-caro-items #demo1 .carousel-inner .carousel-item .text-carousel .cus-feedback {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.wrapper section .img-carousel-cont .img-caro-items #demo1 button i {
+  color: black;
+}
+.wrapper section .pac-heading .pac-head-content {
+  width: 80%;
+}
+.wrapper section .pac-heading .pac-head-content h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.wrapper section .pac-heading .pac-head-content .pac-head-para p {
+  font-size: 20px;
+  width: 76.5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.wrapper section .pac-list {
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
+.wrapper section .pac-list .pac-list-cont {
+  width: 77%;
+}
+.wrapper section .pac-list .pac-list-cont .row .card-container {
+  border: 1px solid rgba(112, 112, 112, 0.2);
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1607843137);
+  padding: 0;
+}
+.wrapper section .pac-list .pac-list-cont .row .card-container div ul .pac-list-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.wrapper section .pac-list .pac-list-cont .row .card-container div ul .pac-list-dec {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.wrapper section .pac-list .pac-list-cont .row .card-container div ul .pac-list-cost {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.wrapper section .pac-list .pac-list-cont .row .card-container .pac-list-footer .col button {
+  background: #0E8E00;
+  color: #F5F5F5;
+}
+.wrapper section .contact-us {
+  background-color: #F5F5F5;
+}
+.wrapper section .contact-us .contact-us-cont {
+  margin-left: 7%;
+}
+.wrapper section .contact-us .contact-us-cont h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container {
+  -moz-column-gap: 5em;
+       column-gap: 5em;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-1 .col-12 .form-cus-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ADADAD;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-1 .col-12 ::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ADADAD;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-1 .col-12 ::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ADADAD;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-1 .col-12 button {
+  background: transparent linear-gradient(122deg, #06B800 0%, #078504 100%) 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-2 {
+  padding-right: 15%;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-2 .col-md-12 {
+  height: 70%;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-3 .col-5 .con-nameheader {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-3 .col-5 p {
+  color: #9E9E9E;
+}
+.wrapper section .contact-us .contact-us-cont .contact-container .cus-row-3 .col-5 i {
+  color: black;
+  padding-right: 1em;
+}
+.wrapper footer {
+  background-color: #090909;
+  color: #FFFFFF;
+}
+
+.datepicker .datepicker-days table {
+  width: 17em;
+  padding: 0 1em;
+}/*# sourceMappingURL=main.css.map */

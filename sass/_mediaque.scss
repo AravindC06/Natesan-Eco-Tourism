@@ -1,0 +1,50 @@
+@media screen and (max-width: 420px){
+    
+}
+@media screen and (max-width:420px) {
+    .cus-row-1{
+        width: 40%;
+    }
+}
+@media screen and (min-width:420px) and (max-width:991px) {
+    .cus-row-1{
+        width: 87%;
+    }
+}
+@media screen and (min-width:992px) {
+    .cus-row-1{
+        width: 40%;
+    }
+}
+@media screen and (max-width:1400px){
+        .cus-row-cont{
+            display: flex;
+            flex-direction: column;
+            .col-md-6,.col-md-5{
+                width: 100%;
+            }
+        } 
+}
+
+//font-size
+@media screen and (max-width:420px) {
+   
+    .contact-us-cont{
+        margin-left: 0%;
+    .contact-container{
+        display: flex;
+        flex-wrap: wrap;
+        .cus-row-1{
+            width: 90%;
+            .col-12{
+                input{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+  .text-carousel{
+    width: 100%;
+  }
+}
